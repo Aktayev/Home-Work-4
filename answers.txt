@@ -1,0 +1,44 @@
+sort1 uses: bubble sort
+
+How do you know?: 
+random5000 :  0m0.078s user    0m0.042s sys     0m0.025s
+random10000 :  0m0.272s user    0m0.197s sys     0m0.040s
+random50000 :  0m8.685s user    0m7.469s sys     0m0.200s
+
+reversed5000 : real    0m0.079s user    0m0.061s sys     0m0.009s
+reversed10000 : real    0m0.265s user    0m0.231s sys     0m0.025s
+reversed50000 : real    0m6.911s user    0m5.931s sys     0m0.179s
+
+sorted5000 : real    0m0.030s user    0m0.000s sys     0m0.015s
+sorted10000 : real    0m0.067s user    0m0.000s sys     0m0.039s
+sorted50000 : real    0m0.744s user    0m0.038s sys     0m0.156s
+
+sort2 uses: merge sort
+
+How do you know?:
+random5000 :  0m0.022s user    0m0.004s sys     0m0.018s
+random10000 :  0m0.084s user    0m0.008s sys     0m0.037s
+random50000 :  0m0.802s user    0m0.041s sys     0m0.170s
+
+reversed5000 : real    0m0.045s user    0m0.000s sys     0m0.024s
+reversed10000 : real    0m0.049s user    0m0.019s sys     0m0.026s
+reversed50000 : real    0m0.709s user    0m0.037s sys     0m0.158s
+
+sorted5000 : real    0m0.043s user    0m0.008s sys     0m0.015s
+sorted5000 : real    0m0.098s user    0m0.010s sys     0m0.034s
+sorted5000 : real    0m0.851s user    0m0.033s sys     0m0.181s
+
+sort3 uses: selection sort
+
+How do you know?:
+random5000 :  0m0.100s user    0m0.041s sys     0m0.020s
+random10000 :  0m0.181s user    0m0.131s sys     0m0.032s
+random50000 :  0m4.011s user    0m3.062s sys     0m0.219time
+
+reversed5000 : real    0m0.052s user    0m0.029s sys     0m0.022s
+reversed10000 : real    0m0.187s user    0m0.123s sys     0m0.039s
+reversed50000 : real    0m4.228s user    0m3.157s sys     0m0.178s
+
+sorted5000 : real    0m0.056s user    0m0.034s sys     0m0.015s
+sorted10000 : real    0m0.171s user    0m0.109s sys     0m0.043s
+sorted50000 : real    0m3.697s user    0m2.835s sys     0m0.174s
